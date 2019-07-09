@@ -8,3 +8,4 @@ searchs = soup.select('#PM_ID_ct > div.header > div.section_navbar > div.area_ho
 
 for search in searchs:
     print(search.text)
+#두번째 커밋 생성
