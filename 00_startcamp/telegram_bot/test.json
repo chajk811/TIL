@@ -1,0 +1,34 @@
+{
+    'update_id': 339346107, 
+    'message': {
+        'message_id': 19, 
+        'from': {
+            'id': 806914747, 
+            'is_bot': False, 
+            'first_name': '진권', 
+            'last_name': '차',
+            'language_code': 'ko'
+        }, 
+        'chat': {
+            'id': 806914747, 
+            'first_name': '진권', 
+            'last_name': '차', 
+            'type': 'private'
+        }, 
+        'date': 1562897846, 
+        'text': '2'
+    }
+}
+
+{
+    'message': {
+        '@type': 'response', 
+        '@service': 'naverservice.nmt.proxy', 
+        '@version': '1.0.0', 
+        'result': {
+            'srcLangType': 'ko', 
+            'tarLangType': 'en', 
+            'translatedText': 'apple'
+        }
+    }
+}
