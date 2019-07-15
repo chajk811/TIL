@@ -49,4 +49,4 @@ def telegram():
                 winner.append(lotto[f'drwtNo{i}'])
             text = winner
         requests.get(f'{api_url}/bot{token}/sendMessage?chat_id={chat_id}&text={text}')
-    return '', 200
+    return '', 200 
