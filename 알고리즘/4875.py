@@ -43,6 +43,10 @@ for case in range(1, T+1):
 
     print('#{} {}'.format(case, ans))
 
+    for i in range(N):
+        print(visit[i])
+
+
 
 
 
