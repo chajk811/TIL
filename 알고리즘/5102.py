@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('5120_input.txt')
+sys.stdin = open('5102_input.txt')
 
 ## 1
 def BFS(s):
@@ -13,7 +13,6 @@ def BFS(s):
             if not visited[new]:
                 Q.append(new)
                 visited[new] = visited[now] + 1
-                D[new] = D[now] + 1
                 if new == g:
                     return
 
