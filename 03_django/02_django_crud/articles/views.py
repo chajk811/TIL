@@ -11,21 +11,17 @@ def index(request):
     return render(request, 'articles/index.html', context)
 
 
-def new(request):
-    return render(request, 'articles/new.html')
-
-
 def create(request):
-    try:
+    # CREATE
+    if request.method == 'POST':        
         title = request.POST.get('title')
         content = request.POST.get('content')
         article = Article(title=title, content=content)
-        article.full_clean() # 유효성 검증.
-    except ValidationError:
-        raise ValidationError('Error')
-    else:    
         article.save()
-    return redirect(f'/articles/{article.pk}/')
+        return redirect(article)
+    # NEW
+    else:
+        return render(request, 'articles/create.html')
 
 
 def detail(request, pk):
@@ -36,20 +32,19 @@ def detail(request, pk):
 
 def delete(request, pk):
     article = Article.objects.get(pk=pk)
-    article.delete()
-    return redirect('/articles/')
-
-
-def edit(request, pk):
-    article = Article.objects.get(pk=pk)
-    context = {'article': article}
-    return render(request, 'articles/edit.html', context)
-
+    if request.method == 'POST':
+        article.delete()
+        return redirect('articles:index')
+    else:
+        return redirect(article)
 
 def update(request, pk):
     article = Article.objects.get(pk=pk)
-
-    article.title = request.POST.get('title')
-    article.content = request.POST.get('content')
-    article.save()
-    return  redirect(f'/articles/{article.pk}')
+    if request.method == 'POST':
+        article.title = request.POST.get('title')
+        article.content = request.POST.get('content')
+        article.save()
+        return  redirect(article)
+    else:
+        context = {'article': article}
+        return render(request, 'articles/update.html', context)
