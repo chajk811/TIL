@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7330c3fe-cab3-4663-9097-d9397c7928fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1865.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5188.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/알고리즘.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/알고리즘.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +20,23 @@
     <session id="-866524908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -53,30 +54,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/5188.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/5188_input.txt">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +74,7 @@
         <option value="$PROJECT_DIR$/test_code.py" />
         <option value="$PROJECT_DIR$/1865.py" />
         <option value="$PROJECT_DIR$/5188.py" />
+        <option value="$PROJECT_DIR$/LINE.py" />
       </list>
     </option>
   </component>
@@ -110,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,7 +101,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,11 +292,14 @@
     <entry file="file://$PROJECT_DIR$/5188.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5188_input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LINE.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
