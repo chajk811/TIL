@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1 class="text-center">DETAIL</h1>
+
+<p>{{ question.issue_a }}</p>
+{% if question.image_a %}
+<img src="{{ question.image_a.url }}" alt="#">
+{% endif %}
+
+<p>{{ question.issue_b }}</p>
+{% if question.image_b %}
+<img src="{{ question.image_b.url }}" alt="#">
+{% endif %}
+
+
+cnt_0 = 0
+cnt_1 = 0
+{% for answer in answers %}
+if 0 == answer.pick
+cnt_0 += 1
+else:
+cnt_1 += 1
+{% endspaceless %}
+<li>{{ answer.comment }}
+</li>
+{% empty %}
+<p><b>댓글이 없어요..</b></p>
+{% endfor %}
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: {{ cnt_0 }}%;" aria-valuenow="{{cnt_0}}" aria-valuemin="0" aria-valuemax="100">퍼센트</div>
+</div>
+
+<hr>
+<!-- 댓글 작성 form -->
+<form action="{% url 'eithers:answers_create' question.pk %}" method="POST">
+  {% csrf_token %}
+  <label class="btn btn-secondary active">
+    <input type="radio" name="pick" autocomplete="off" value="0"> 왼쪽
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="pick" autocomplete="off" value="1"> 오른쪽
+  </label>
+  <label for="comment">COMMENT</label>
+  <input type="text" name="comment" id="comment">
+  <input type="submit" value="submit">
+</form>
+<hr>
+<a href="{% url 'eithers:index' %}">[back]</a>
+
+
+
+
+
+
+{% endblock %}

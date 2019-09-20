@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="text-center">EITHERS</h1>
+  <a href="{% url 'eithers:create' %}">[NEW]</a>
+  <hr>
+  {% for question in questions %}
+    <p>글 제목: {{ question.title }}</p>
+    <a href="{{ question.get_absolute_url }}">[detail]</a>
+    <hr>
+  {% endfor %}
+{% endblock %}

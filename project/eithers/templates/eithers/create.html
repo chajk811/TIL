@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <h1 class='text-center'>CREATE</h1>
+  <form action="" method='POST' enctype='multipart/form-data'>
+    {% csrf_token %}
+    <label for="title">TITLE</label>
+    <input type="text" name="title" id="title" required><br>
+    <label for="issue_a">ISSUE_A</label>
+    <textarea name="issue_a" id="issue_a" cols="30" rows="5"></textarea><br>
+    <label for="issue_b">ISSUE_b</label>
+    <textarea name="issue_b" id="issue_b" cols="30" rows="5"></textarea><br>
+    <label for="image_a">IMAGE_A</label>
+    <input type="file" name="image_a" id="image_a" accept="images/*">
+    <label for="image_b">IMAGE_B</label>
+    <input type="file" name="image_b" id="image_b" accept="images/*">
+    <input type="submit" value="submit">
+  </form>
+{% endblock %}

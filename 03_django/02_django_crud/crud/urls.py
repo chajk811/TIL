@@ -15,9 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('jobs/', include('jobs.urls')),
     path('articles/', include('articles.urls')),
     path('admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+# 첫번째 인자(settings.MEDIA_URLS) : 어떤 URL 을 정적으로 추가할지(Media file url)
+# 두번째 인자(document_root=) : 실제 해당 미디어 파일이 어디에 존재하는지
+ 
+# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

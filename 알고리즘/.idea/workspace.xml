@@ -4,11 +4,16 @@
     <list default="true" id="7330c3fe-cab3-4663-9097-d9397c7928fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5188.py" beforeDir="false" afterPath="$PROJECT_DIR$/5188.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5188_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5188_input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,41 +25,71 @@
     <session id="-866524908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2712" />
-          <entry key="txt" value="31" />
+          <entry key="py" value="3444" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="2712" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Python" value="3444" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.67575324">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/5188.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <marker date="1568881166024" expanded="true" signature="89:571" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/5188_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,14 +108,15 @@
         <option value="$PROJECT_DIR$/1865_input.txt" />
         <option value="$PROJECT_DIR$/test_code.py" />
         <option value="$PROJECT_DIR$/1865.py" />
-        <option value="$PROJECT_DIR$/5188.py" />
         <option value="$PROJECT_DIR$/LINE.py" />
+        <option value="$PROJECT_DIR$/5188_input.txt" />
+        <option value="$PROJECT_DIR$/5188.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="660" />
+    <option name="width" value="1267" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1865">
+  <component name="RunManager" selected="Python.5188">
     <configuration name="1210" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,6 +198,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5188" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5188.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,9 +244,11 @@
       <item itemvalue="Python.1210" />
       <item itemvalue="Python.1865" />
       <item itemvalue="Python.test_code" />
+      <item itemvalue="Python.5188" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5188" />
         <item itemvalue="Python.1865" />
         <item itemvalue="Python.test_code" />
         <item itemvalue="Python.1210" />
@@ -210,9 +269,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="660" y="0" width="1267" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252136" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24252136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,8 +293,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="Q" language="Python" />
+        <watch expression="visited" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>visited</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Q</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>MIN</expression-string>
         <language-id>Python</language-id>
@@ -289,18 +366,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LINE.py" />
     <entry file="file://$PROJECT_DIR$/5188.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1568881166024" expanded="true" signature="89:571" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5188_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LINE.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
