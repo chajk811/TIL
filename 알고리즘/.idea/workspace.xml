@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7330c3fe-cab3-4663-9097-d9397c7928fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5209.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5188.py" beforeDir="false" afterPath="$PROJECT_DIR$/5188.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5188_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5188_input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,71 +15,54 @@
     <session id="-866524908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3444" />
+          <entry key="py" value="3835" />
           <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="3444" />
+          <entry key="Python" value="3835" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67575324">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/5188.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                  <folding>
-                    <marker date="1568881166024" expanded="true" signature="89:571" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/5188_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5209.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1569290231303" expanded="true" signature="51:52" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,12 +84,13 @@
         <option value="$PROJECT_DIR$/LINE.py" />
         <option value="$PROJECT_DIR$/5188_input.txt" />
         <option value="$PROJECT_DIR$/5188.py" />
+        <option value="$PROJECT_DIR$/5209.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="660" />
-    <option name="width" value="1267" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5188">
+  <component name="RunManager" selected="Python.5209">
     <configuration name="1210" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +193,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5209" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5209.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,9 +240,11 @@
       <item itemvalue="Python.1865" />
       <item itemvalue="Python.test_code" />
       <item itemvalue="Python.5188" />
+      <item itemvalue="Python.5209" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5209" />
         <item itemvalue="Python.5188" />
         <item itemvalue="Python.1865" />
         <item itemvalue="Python.test_code" />
@@ -269,9 +266,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="660" y="0" width="1267" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24252136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,20 +364,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LINE.py" />
+    <entry file="file://$PROJECT_DIR$/5188_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5188.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <marker date="1568881166024" expanded="true" signature="89:571" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5188_input.txt">
+    <entry file="file://$PROJECT_DIR$/5209_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../X/ssafy_daejeon/05 Stack2/02.부분집합_객체재귀.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../X/ssafy_daejeon/05 Stack2/05.순열(2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../X/ssafy_daejeon/05 Stack2/05.순열(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5209.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1569290231303" expanded="true" signature="51:52" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
