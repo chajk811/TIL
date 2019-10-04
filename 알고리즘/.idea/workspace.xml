@@ -2,78 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7330c3fe-cab3-4663-9097-d9397c7928fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/역테전까지/10430_나머지.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/1934_최소공배수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/2609_최대공약수와 최소공배수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/9613_GCD 합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/django_intro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/django_intro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/django_intro/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/django_intro/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/static/pages/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/static/pages/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/art.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/art.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/catch.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/catch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/dinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/dinner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/isitgwangbok.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/isitgwangbok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/static_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/static_example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/template_language.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/template_language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/throw.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/throw.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/times.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/times.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/user_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/user_create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/user_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/templates/pages/user_new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/utilities/templates/utilities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/utilities/templates/utilities/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/00_django_intro/utilities/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/00_django_intro/utilities/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/migrations/0002_article_updated_at.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/migrations/0002_article_updated_at.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/01_django_orm_crud/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/01_django_orm_crud/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/01_django_orm_crud/crud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/migrations/0003_article_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/migrations/0003_article_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/migrations/0006_auto_20190920_1335.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/migrations/0006_auto_20190920_1335.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/templates/articles/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/crud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/templates/jobs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/templates/jobs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/templates/jobs/past_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/templates/jobs/past_life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/jobs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/02_django_crud/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/templates/articles/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/crud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/crud/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/crud/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/templates/jobs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/templates/jobs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/templates/jobs/past_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/templates/jobs/past_life.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/jobs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_django/CRUD_TEMP/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_django/CRUD_TEMP/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/1247_최적경로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/1486_장훈이의 높은 선반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/1952_수영장.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/2115_벌꿀채취.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/3234_준환이의 양팔저울.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/4014_활주로 건설.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,48 +21,73 @@
     <session id="-866524908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="6" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.2" value="8" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
-          <entry key="txt" value="10" />
+          <entry key="ini" value="1" />
+          <entry key="py" value="35" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="19" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
-          <entry key="py" value="5192" />
-          <entry key="txt" value="34" />
+          <entry key="dummy" value="15" />
+          <entry key="py" value="13042" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="5192" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Python" value="13042" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/역테전까지/9613_GCD 합.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/역테전까지/4014_활주로 건설.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <marker date="1570171076534" expanded="true" signature="345:381" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/역테전까지/4014_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,10 +114,25 @@
         <option value="$PROJECT_DIR$/역테전까지/2609_최대공약수와 최소공배수.py" />
         <option value="$PROJECT_DIR$/역테전까지/1934_최소공배수.py" />
         <option value="$PROJECT_DIR$/역테전까지/9613_GCD 합.py" />
+        <option value="$PROJECT_DIR$/역테전까지/1486_장후이의 높은 선반.py" />
+        <option value="$PROJECT_DIR$/역테전까지/1486_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/1247_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/1247_최적경로.py" />
+        <option value="$PROJECT_DIR$/역테전까지/1486_장훈이의 높은 선반.py" />
+        <option value="$PROJECT_DIR$/역테전까지/2115_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/2115_벌꿀채취.py" />
+        <option value="$PROJECT_DIR$/역테전까지/3234_준환이의양팔저울.py" />
+        <option value="$PROJECT_DIR$/역테전까지/3234_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/3234_준환이의 양팔저울.py" />
+        <option value="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" />
+        <option value="$PROJECT_DIR$/역테전까지/1952_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/1952_수영장.py" />
+        <option value="$PROJECT_DIR$/역테전까지/4014_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/4014_활주로 건설.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -203,8 +178,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1934_최소공배수">
-    <configuration name="1934_최소공배수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.4014_활주로 건설">
+    <configuration name="1808_지희의 고장난 계산기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/1934_최소공배수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2609_최대공약수와 최소공배수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1952_수영장" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +212,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/2609_최대공약수와 최소공배수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/1952_수영장.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,49 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5188" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="알고리즘" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5188.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5209" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="알고리즘" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5209.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="나머지_10430" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2115_벌꿀채취" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +233,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\student\Desktop\TIL\알고리즘\역테전까지\10430_나머지.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/2115_벌꿀채취.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3234_준환이의 양팔저울" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/역테전까지" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/3234_준환이의 양팔저울.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4014_활주로 건설" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/역테전까지" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/4014_활주로 건설.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,19 +285,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5188" />
-      <item itemvalue="Python.5209" />
-      <item itemvalue="Python.나머지_10430" />
-      <item itemvalue="Python.2609_최대공약수와 최소공배수" />
-      <item itemvalue="Python.1934_최소공배수" />
+      <item itemvalue="Python.2115_벌꿀채취" />
+      <item itemvalue="Python.3234_준환이의 양팔저울" />
+      <item itemvalue="Python.1808_지희의 고장난 계산기" />
+      <item itemvalue="Python.1952_수영장" />
+      <item itemvalue="Python.4014_활주로 건설" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1934_최소공배수" />
-        <item itemvalue="Python.2609_최대공약수와 최소공배수" />
-        <item itemvalue="Python.나머지_10430" />
-        <item itemvalue="Python.5209" />
-        <item itemvalue="Python.5188" />
+        <item itemvalue="Python.4014_활주로 건설" />
+        <item itemvalue="Python.1952_수영장" />
+        <item itemvalue="Python.1808_지희의 고장난 계산기" />
+        <item itemvalue="Python.3234_준환이의 양팔저울" />
+        <item itemvalue="Python.2115_벌꿀채취" />
       </list>
     </recent_temporary>
   </component>
@@ -343,13 +318,13 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252136" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22649573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33116177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39473686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33114034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39035088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,20 +340,38 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="visited" language="Python" />
+        <watch expression="person" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>person</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>visited</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Q</expression-string>
+        <expression-string>MIN</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>MIN</expression-string>
+        <expression-string>pick</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Q</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -409,24 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1865_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4335">
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1865.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -473,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="10" />
-          <folding>
-            <marker date="1569290231303" expanded="true" signature="51:52" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,13 +462,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/9613_GCD 합.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1486_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1247_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1247_최적경로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1865.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1865_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1486_장훈이의 높은 선반.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/2115_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/3234_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/2115_벌꿀채취.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/3234_준환이의 양팔저울.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1570163701351" expanded="true" signature="46:47" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/역테전까지/2609_최대공약수와 최소공배수.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <marker date="1569468330518" expanded="true" signature="220:221" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1808_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -503,8 +559,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/역테전까지/9613_GCD 합.py">
+    <entry file="file://$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1570164611064" expanded="true" signature="58:82" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1952_수영장.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1570167220286" expanded="true" signature="46:47" ph="..." />
+            <marker date="1570167220286" expanded="true" signature="160:328" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/1952_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/desktop.ini">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/4014_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/4014_활주로 건설.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1570171076534" expanded="true" signature="345:381" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
