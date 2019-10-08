@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7330c3fe-cab3-4663-9097-d9397c7928fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/역테전까지/17144_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/17471_게리맨더링.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/역테전까지/피보나치연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/17143_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/17143_낚시왕.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/미네랄 모으기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/역테전까지/미네랄모으기_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/역테전까지/4014_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/4014_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/역테전까지/4014_활주로 건설.py" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/4014_활주로 건설.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/역테전까지/9613_GCD 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/14499_주사위 굴리기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/역테전까지/17144_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/17144_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py" beforeDir="false" afterPath="$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,74 +20,62 @@
     <session id="-866524908">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.2" value="9" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.2" value="11" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="1" />
-          <entry key="py" value="46" />
-          <entry key="txt" value="33" />
+          <entry key="py" value="52" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="46" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Python" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="15672" />
-          <entry key="txt" value="56" />
+          <entry key="py" value="17946" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="Python" value="15672" />
+          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="Python" value="17946" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
-                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-                  <folding>
-                    <marker date="1570427399444" expanded="true" signature="807:812" ph="..." />
-                    <marker date="1570427399444" expanded="true" signature="807:827" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/역테전까지/17144_input.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17">
-                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/역테전까지/17143_낚시왕.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/역테전까지/17143_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,14 +120,19 @@
         <option value="$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py" />
         <option value="$PROJECT_DIR$/역테전까지/17471_게리맨더링.py" />
         <option value="$PROJECT_DIR$/역테전까지/14499_주사위 굴리기.py" />
+        <option value="$PROJECT_DIR$/역테전까지/14503_로봇청소기.py" />
         <option value="$PROJECT_DIR$/역테전까지/17144_input.txt" />
         <option value="$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py" />
+        <option value="$PROJECT_DIR$/역테전까지/미네랄 모으기.py" />
+        <option value="$PROJECT_DIR$/역테전까지/미네랄모으기_input.txt" />
+        <option value="$PROJECT_DIR$/역테전까지/17143_낚시왕.py" />
+        <option value="$PROJECT_DIR$/역테전까지/17143_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="904" />
-    <option name="width" value="1023" />
+    <option name="x" value="444" />
+    <option name="width" value="1483" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -185,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17144_미세먼지 안녕">
-    <configuration name="피보나치연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.17143_낚시왕">
+    <configuration name="미네랄 모으기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="알고리즘" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +189,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/피보나치연습.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/미네랄 모으기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17143_낚시왕" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/역테전까지" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/17143_낚시왕.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,27 +232,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1952_수영장" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="알고리즘" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/역테전까지" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/역테전까지/1952_수영장.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1952_수영장" />
       <item itemvalue="Python.4014_활주로 건설" />
-      <item itemvalue="Python.피보나치연습" />
       <item itemvalue="Python.2115_벌꿀채취" />
       <item itemvalue="Python.17144_미세먼지 안녕" />
+      <item itemvalue="Python.미네랄 모으기" />
+      <item itemvalue="Python.17143_낚시왕" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17143_낚시왕" />
+        <item itemvalue="Python.미네랄 모으기" />
         <item itemvalue="Python.17144_미세먼지 안녕" />
         <item itemvalue="Python.2115_벌꿀채취" />
         <item itemvalue="Python.4014_활주로 건설" />
-        <item itemvalue="Python.피보나치연습" />
-        <item itemvalue="Python.1952_수영장" />
       </list>
     </recent_temporary>
   </component>
@@ -322,15 +313,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="904" y="0" width="1023" height="1047" extended-state="0" />
+    <frame x="444" y="0" width="1483" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21522842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2152249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33114034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33114034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39035088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,16 +545,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/역테전까지/9613_GCD 합.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/9613_GCD 합.py" />
     <entry file="file://$PROJECT_DIR$/역테전까지/1808_지희의 고장난 계산기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1570408777027" expanded="true" signature="47:48" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,9 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1570167220286" expanded="true" signature="46:47" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <marker date="1570408572188" expanded="true" signature="45:51" ph="..." />
-            <marker date="1570408572188" expanded="true" signature="323:442" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1570163701351" expanded="true" signature="46:47" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,21 +609,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/14503_로봇청소기.py" />
     <entry file="file://$PROJECT_DIR$/역테전까지/17144_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/역테전까지/17144_미세먼지 안녕.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/미네랄모으기_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../대전_2반_박상원/[알고리즘 월말평가 문제3] 미네랄 모으기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/미네랄 모으기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
-            <marker date="1570427399444" expanded="true" signature="807:812" ph="..." />
-            <marker date="1570427399444" expanded="true" signature="807:827" ph="..." />
+            <marker date="1570514744196" expanded="true" signature="78:502" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/17143_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/역테전까지/17143_낚시왕.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>

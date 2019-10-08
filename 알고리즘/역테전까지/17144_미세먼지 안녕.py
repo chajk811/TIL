@@ -32,49 +32,97 @@ def move():
 def delete():
     global arr
 
+    x, y = air[0], 1
+    wind = []
+
+    while y < C-1:
+        wind.append(arr[x][y])
+        y += 1
+    while x > 0:
+        wind.append(arr[x][y])
+        x -= 1
+    while y > 0:
+        wind.append(arr[x][y])
+        y -= 1
+    while x < air[0]:
+        wind.append(arr[x][y])
+        x += 1
+
+    wind = [0] + wind[:len(wind)-1]
+    x, y = air[0], 1
+    cnt = 0
+
+    while y < C-1:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        y += 1
+    while x > 0:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        x -= 1
+    while y > 0:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        y -= 1
+    while x < air[0]:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        x += 1
+    #-----------------
+    x, y = air[1], 1
+    wind = []
+
+    while y < C-1:
+        wind.append(arr[x][y])
+        y += 1
+    while x < R-1:
+        wind.append(arr[x][y])
+        x += 1
+    while y > 0:
+        wind.append(arr[x][y])
+        y -= 1
+    while x > air[1]:
+        wind.append(arr[x][y])
+        x -= 1
+
+    wind = [0] + wind[:len(wind)-1]
+    x, y = air[1], 1
+    cnt = 0
+
+    while y < C-1:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        y += 1
+    while x < R-1:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        x += 1
+    while y > 0:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        y -= 1
+    while x > air[1]:
+        arr[x][y] = wind[cnt]
+        cnt += 1
+        x -= 1
 
 
-
-# 총 8개 tc
 T = int(input())
 
 for tc in range(1, T+1):
     R, C, T = map(int, input().split())
     arr = [list(map(int, input().split())) for _ in range(R)]
     air = []
+    result = 0
 
 
     for t in range(T):
         move()
+        delete()
 
+    for i in range(R):
+        for j in range(C):
+            if arr[i][j] > 0:
+                result += arr[i][j]
 
-
-
-
-
-
-
-
-# 공기청정기는 항상 왼쪽 열에 설치, 크기 두행을 차지
-# 1초 동안 일이 순서대로 일어남
-
-# <미세먼지>
-# 모든 미세먼지에서 동시에, 인접한 네 방향으로 확산
-# 확산되는 양 = 현재 미세먼지 // 5
-# 확산후 남은 양 = 현재 미세먼지 - (확산되는 양) * 확산 방향
-
-# <공기청정기 작동>
-# 위쪽 공기청정기의 바람은 반시계방향으로 순환
-# 아래 공기청정기의 바람은 시계방향
-# 바람이 불면 미세먼지가 바람의 방향대로 모두 한칸씩 이동
-
-
-# 확산 전, 확산 후 두개의 리스트로
-# 전에서 확인해서 미세먼지가 있으면 확산결과를 새 리스트에 저장
-
-
-
-
-
-
-
+    print(result)
