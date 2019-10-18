@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>MOVIES</h1>
+<a href="{% url 'movies:create' %}">[NEW]</a>
+<hr>
+{% for movie in movies %}
+<p>영화 번호: {{ movie.pk }}</p>
+<p>title: {{ movie.title }}</p>
+<a href="{% url 'movies:detail' movie.pk %}">[DETAIL]</a>
+<hr>
+{% endfor %}
+{% endblock %}

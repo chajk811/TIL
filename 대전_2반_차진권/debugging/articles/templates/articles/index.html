@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<h1>아티클 목록</h1>
+
+<div>
+    <a href="{% url 'articles:create' %}">새 아티클</a>
+</div>
+
+<ul>
+    {% for article in articles %}
+    <li>
+        <a href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

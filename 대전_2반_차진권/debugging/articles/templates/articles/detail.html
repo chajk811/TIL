@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<h1>{{ article.title }}</h1>
+
+<div>
+    <div>작성일: {{ article.created_at }}</div>
+    <div>수정일: {{ article.updated_at }}</div>
+</div>
+
+<p>
+    {{ article.content }}
+</p>
+
+<div>
+    <a href="{% url 'articles:index' %}">목록</a>    
+    <a href="{% url 'articles:update' article.pk %}">수정</a>    
+    <a href="{% url 'articles:delete' article.pk %}">삭제</a>    
+</div>
+
+<hr>
+
+<ul>
+    {% for comment in article.comment_set.all %}
+    <li>
+        {{ comment.content }} - {{ comment.created_at }}
+        <form action="{% url 'articles:comments_delete' article.pk comment.pk %}" style="display: inline-block;">
+            {% csrf_token %}
+            <input type="submit" value="삭제"/>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+
+<form action="{% url 'articles:comments_create' article.pk %}" method="post">
+    {% csrf_token %}
+    {{ comment_form }}
+    <input type="submit" value="작성"/>
+</form>
+
+{% endblock %}
