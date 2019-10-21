@@ -13,20 +13,24 @@
     <input type="submit" value="DELETE">
   </form>
   <hr>
+  <!-- 댓글 출력 -->
   {% for comment in comments %}
-    <p>댓글 {{ forloop.revcounter }}: {{ comment.content }}</p>
-    <form action="{% url 'article:comments_delete' article.pk comment.pk %}" method="POST">
-    {% csrf_token %}
-    <input type="submit" value="DELETE">
-    </form>
+    <div>
+      댓글 {{ forloop.revcounter }} : {{ comment.content }}
+      <form action="{% url 'articles:comments_delete' article.pk comment.pk %}" method="POST" style="display: inline;">
+        {% csrf_token %}
+        <input type="submit" value="DELETE">
+      </form>
+    </div>
   {% empty %}
     <p><b>댓글이 없습니다.</b></p>
   {% endfor %}
   <hr>
-  <form action="{% url 'article:comment_create' %}" method="POST">
-  {% csrf_token %}
-  {{ comment_from }}
-  <input type="submit" value="submit">
+  <!-- 댓글 입력 form -->
+  <form action="{% url 'articles:comments_create' article.pk %}" method="POST">
+    {% csrf_token %}
+    {{ comment_form }}
+    <input type="submit" value="submit">
   </form>
   <hr>
   <a href="{% url 'articles:index' %}">[back]</a>
