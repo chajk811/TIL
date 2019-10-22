@@ -49,8 +49,8 @@ class ArticleForm(forms.ModelForm):
     
     class Meta:
         model = Article
-        # fields = ('title', 'content',)
-        fields = '__all__'
+        fields = ('title', 'content',)
+        # fields = '__all__'
         # exclude = ('title',)
         # widgets = {
         #     'title': forms.TextInput(attrs={
