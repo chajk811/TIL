@@ -11,26 +11,8 @@
   <title>Document</title>
 </head>
 <body>
+  {% include 'articles/_nav.html' %}
   <div class="container">
-  {% if user.is_authenticated %}
-    <h3>
-      <img src="https://s.gravatar.com/avatar/{{ user.email|makemd5 }}?s=50" alt="#">
-      Hello, {{ user.username }}
-      <a href="{% url 'accounts:update' %}">정보수정</a>
-      <a href="{% url 'accounts:change_password' %}">비번변경</a>
-      <a href="{% url 'accounts:logout' %}">로그아웃</a>
-      <form action="{% url 'accounts:delete' %}" method="POST" style='display: inline;'>
-        {% csrf_token %}
-        <input type="submit" value="회원탈퇴" class="btn btn-danger">
-      </form>
-    </h3>
-  {% else %}
-    <h3>
-      <a href="{% url 'accounts:login' %}">로그인</a>
-      <a href="{% url 'accounts:signup' %}">회원가입</a>
-    </h3>
-  {% endif %}
-  <hr>
     {% block content %}
     {% endblock %}
   </div>

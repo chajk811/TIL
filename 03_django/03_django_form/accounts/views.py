@@ -1,10 +1,11 @@
 from IPython import embed
+from django.contrib.auth import get_user_model
 from django.views.decorators.http import require_POST
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import AuthenticationForm, PasswordChangeForm
 from .forms import CustomUserChangeForm, CustomUserCreationForm
 
@@ -78,3 +79,8 @@ def change_password(request):
     context = {'form': form,}
     return render(request, 'accounts/auth_form.html', context)
 
+
+def profile(request, username):
+    person = get_object_or_404(get_user_model(), username=username)
+    context = {'person': person,}
+    return render(request, 'accounts/profile.html', context)

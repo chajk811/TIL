@@ -42,5 +42,7 @@
     <a href="{% url 'accounts:login' %}">[댓글을 작성하려면 로그인하세요.]</a>
   {% endif %}
   <hr>
+  {% include 'articles/_follow.html' %}
+  <hr>
   <a href="{% url 'articles:index' %}">[back]</a>
 {% endblock %}
