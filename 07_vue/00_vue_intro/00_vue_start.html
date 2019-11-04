@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		{{ message }} - {{ count }}
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script>
+		const app = new Vue({
+			el: '#app',
+			data: {
+				message: 'Hello Vue!',
+				count: 0,
+			},
+			methods: {
+				// 표현식
+				plus: function() {
+					this.count++ // Vue instance 내에서는 data 내의 값들에 this로 접근 가능
+				},
+				// 선언식
+				minus(){
+					this.count--
+				}
+			}
+		})
+		// app.message === app.$data.message
+	</script>
+</body>
+</html>

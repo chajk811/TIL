@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+	 img {
+		 width: 300px;
+		 height: 300px;
+	 }
+	</style>
+</head>
+
+<body>
+	<div id="app">
+		<button v-on:click="getDogImage">개</button>
+		<button v-on:click="getCatImage">고양이</button>
+		<img v-for="image in images" v-bind:src="image" alt="img" v-if="image">
+	</div>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script>
+		const app = new Vue({
+			el: '#app',
+			data: {
+				images: [], // 요청 받은 데이터를 넣어야 하기 때문에 빈 문자열로 둠
+			},
+			methods: {
+				getDogImage: function() {
+					const	URL = 'https://dog.ceo/api/breeds/image/random'
+					axios.get(URL)
+						.then(response => {
+							// 같은 인스턴스 안에 data 내의 속성 값은 this 키워드를 통해서 접근
+							this.images.push(response.data.message)
+						})
+				},
+				getCatImage: function() {
+					const URL = 'https://api.thecatapi.com/v1/images/search'
+					axios.get(URL)
+						.then(response => {
+							this.images.push(response.data[0].url)
+						})
+				}
+			}
+		})
+	</script>
+</body>
+
+</html>
