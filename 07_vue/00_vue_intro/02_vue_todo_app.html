@@ -1,54 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .completed {
+      text-decoration: line-through;
+      opacity: 0.6;
+    }
+  </style>
 </head>
-
 <body>
-	<div id="app">
-		<img v-bind:src="vueImage" alt="todo-list">
-		<li v-for="todo in todos" v-if="!todo.completed" v-on:click="check(todo)">
-			{{ todo.content }}
-		</li>
-		<li v-else>[완료!]</li>
-	</div>
-
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script>
-		const app = new Vue({
-			el: '#app',
-			data: {
-				todos: [
-					{
-						content:'점심 메뉴 고민',
-						completed: true,
-					},
-					{
-						content:'사다리타기',
-						completed: false,
-					},
-					{
-						content:'낮잠 자기',
-						completed: false,
-					},
-					{
-						content:'야자하기',
-						completed: false,
-					},
-				],
-				vueImage: 'https://i.ytimg.com/vi/uyRLV7qK7U8/maxresdefault.jpg'
-			},
-			methods : {
-				check: function(todo) {
-					todo.completed = true
-				}
-			}
-		})
-	</script>
+  <div id="app">
+    <select v-model="status">
+      <option value="all" selected>all</option>
+      <option value="active">active</option>
+      <option value="completed">completed</option>
+    </select>
+​
+    <div :style="{ color: activeColor, fontSize: fontSize + 'px' }">
+      Style test
+    </div>
+​
+    <img :src="vueImage" alt="todo-list">
+    <div v-for="todo in computedTodosByStatus" :class="{ completed: todo.completed }" :key="todo.id">
+    <!-- <div v-for="todo in todos" v-bind:class="todo.completed ? 'completed' : ''"> -->
+      <input type="checkbox" v-model="todo.completed">
+      <span>{{ todo.content }}</span>
+    </div>
+    <div>
+      <input type="test" v-model="newTodo" @keyup.enter="addTodo">
+      <button @click="addTodo">+</button>
+    </div>
+    <footer>
+      <button @click="clearCompleted">Clear</button>
+    </footer>
+  </div>
+​
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const STORAGE_KEY = 'vue-todos'
+    const todoStorage = {
+      fetch: function() {
+        // parse: String -> JSON
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+      },
+      save: function(todos) {
+        // stringify: JSON -> String
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
+      }
+    }
+​
+​
+    const app = new Vue({
+      el: '#app',
+      data: {
+        status: 'all',
+        activeColor: 'red',
+        fontSize: 30,
+        todos: [
+          {
+            id: 1,
+            content: '점심 메뉴 고민',
+            completed: true,
+          },
+          {
+            id: 2, 
+            content: '사다리 타기',
+            completed: false,
+          },
+          {
+            id: 3,
+            content: '낮잠 자기',
+            completed: false,
+          },
+          {
+            id: 4,
+            content: '야자 하기',
+            completed: false,
+          }
+        ],
+        newTodo: '',
+        vueImage: 'http://img.etnews.com/photonews/0805/200805130014_13093536_308639417_l.jpg'
+      },
+      methods: {
+        check: function(todo) {
+          todo.completed = !todo.completed
+        },
+        addTodo: function() {
+          if (this.newTodo.length !== 0 ) {
+            this.todos.push({
+              id: Date.now(),
+              content: this.newTodo,
+              completed: false,
+            })
+            this.newTodo = ''
+          }
+        },
+        clearCompleted: function() {
+          const notCompletedTodos = this.todos.filter(todo => {
+            return !todo.completed
+          })
+          this.todos = notCompletedTodos
+        }
+      },
+      computed: {
+        computedTodosByStatus: function() {
+          // 진행중인 일(완료되지 않은 일)
+          if (this.status === 'active') {
+            return this.todos.filter( todo => {
+              return !todo.completed
+            })
+          }
+          // 완료된 일
+          if (this.status === 'completed') {
+            return this.todos.filter( todo => {
+              return todo.completed
+            })
+          }
+          // all (active, completed 가 아닌, 완료 혹은 미완료가 모두 포함된 배열)
+          return this.todos
+        }
+      },
+      watch: {
+        todos: {
+          // handler 특정 데이터가 변경 되었을 때 실행할 함수
+          handler: function(todos) {
+            todoStorage.save(todos)
+          },
+          // 객체의 nested item 들도 관찰할지 유무를 설정. true 인경우 내부 요소들도 감시하도록 함.
+          deep: true,
+        }
+      },
+      // 새로고침 될 때(DOM 과 Vue instance 가 연결되는 시점) 실행 되는 것
+      mounted: function() {
+        this.todos = todoStorage.fetch()
+      },
+    })
+  </script>
 </body>
-
 </html>
